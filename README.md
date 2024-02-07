@@ -1,0 +1,1 @@
+React app bootstrapped with create react app. I built it using functional components and is styled with, Styled Components and CSS. 
