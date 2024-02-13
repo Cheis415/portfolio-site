@@ -1,12 +1,13 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ButtonReg} from '../ButtonElements';
+import { ButtonLightR } from '../ButtonElements';
 import {
 	DetailsContainer,
 	DetailsWrapper,
 	DetailsRow,
 	Column1,
 	TextWrapper,
+	FlexContainer,
 	TopLine,
 	Heading,
 	TextBody,
@@ -33,12 +34,11 @@ const ProjectDetails = ({
 }) => {
 	var navigate = useNavigate();
 	const GoBack = () => {
-		console.log("HELLLL000")
 		return navigate(-1);
 	  };
 	
 	return (
-		<>
+		<FlexContainer>
 			<DetailsContainer lightB={lightBg} id={id}>
 				<DetailsWrapper>
 					<DetailsRow imgStart={imgStart}>
@@ -49,26 +49,22 @@ const ProjectDetails = ({
 								<TextBody darktext={darktext}>{description}</TextBody>
 
 								<BtnWrap>
-									<Link target="_blank" rel="noreferrer" href={link}>
-										<ButtonReg primary="true" dark="false">
+									{/* <Link target="_blank" rel="noreferrer" href={link}>
+										<ButtonLightR primary="true" dark="false">
 											Link
-										</ButtonReg>
-									</Link>
-									<ButtonReg onClick={GoBack} primary="true" dark="false">
+										</ButtonLightR>
+									</Link> */}
+									<ButtonLightR onClick={GoBack} primary="true" dark="false">
 										{buttonLabel}
-									</ButtonReg>
+									</ButtonLightR>
 								</BtnWrap>
 							</TextWrapper>
 						</Column1>
-						<Column2>
-							<ImgWrap>
-								<Img src={img} alt={alt} />
-							</ImgWrap>
-						</Column2>
+						
 					</DetailsRow>
 				</DetailsWrapper>
 			</DetailsContainer>
-		</>
+		</FlexContainer>
 	);
 };
 

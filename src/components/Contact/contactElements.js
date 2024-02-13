@@ -5,13 +5,13 @@ export const StyledContainer = styled(ToastContainer).attrs({
 	// custom props
 })`
 	.Toastify__toast-container {
-		background: #000;
+		background: #f8eacb;
 		display: flex;
 		margin-top: 20px;
 		border: 1px solid #fff;
 	}
 	.Toastify__toast {
-		background: #000;
+		background: #f8eacb;
 		border: 2px solid #fff;
 	}
 	.Toastify__toast--error {
@@ -22,12 +22,12 @@ export const StyledContainer = styled(ToastContainer).attrs({
 	.Toastify__toast--success {
 	}
 	.Toastify__toast-body {
-		background: #000;
-		color: #fff;
+		background: #f8eacb;
+		color: #454342;
 		font-weight: bold;
 	}
 	.Toastify__progress-bar {
-		background: #b25fb5;
+		background: #288998;
 	}
 `;
 

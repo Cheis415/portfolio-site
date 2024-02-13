@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin, FaRegAddressCard } from 'react-icons/fa';
-import Resume from '../../images/HeislerSeptemberResume.pdf';
+import Resume from '../../images/2024-Chad-Heisler-Resume.pdf';
 import {
 	CloseIcon,
 	ExternalLinkMenu,
@@ -27,8 +27,8 @@ const Sidebar = ({ isOpen, toggle }) => {
 						<SidebarLink to="about" onClick={toggle}>
 							About
 						</SidebarLink>
-						<SidebarLink to="languages" onClick={toggle}>
-							Skillset
+						<SidebarLink to="testimonials" onClick={toggle}>
+						Testimonials
 						</SidebarLink>
 						<SidebarLink to="projects" onClick={toggle}>
 							Projects

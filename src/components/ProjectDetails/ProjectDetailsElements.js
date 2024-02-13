@@ -1,45 +1,47 @@
 import styled from 'styled-components';
 
 export const DetailsContainer = styled.div`
-	color: #fff;
-	background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#010606')};
+	color: #000;
+	display: grid;
+	background: #f9eac8;
+	margin-top: auto;
+	margin-bottom: auto;
 
-	@media screen and (max-width: 768px) {
-		padding: 100px 0;
-	}
-
-	@media screen and (min-width: 768px) {
-		height: 1300px;
-	}
+	
 `;
+export const FlexContainer = styled.div`
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	
+`
 
 export const DetailsWrapper = styled.div`
-	display: grid;
+	display: flex;
 	z-index: 1;
 	height: 860px;
 	width: 100%;
-	max-width: 1100px;
 	padding: 0 24px;
 	justify-content: center;
+	align-items: center;
 `;
 
 export const DetailsRow = styled.div`
-	display: grid;
-	grid-auto-comlumns: minmax(auto, 1fr);
+	display: flex;
 	align-items: center;
-	grid-template-areas: ${({ imgStart }) =>
-		imgStart ? `'col2 col1'` : `'col1 col2'`};
+	
 
 	@media screen and (max-width: 768px) {
-		grid-template-areas: ${({ imgStart }) =>
-			imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+		
 	}
 `;
 
 export const Column1 = styled.div`
+	color: #454342;
 	margin-bottom: 15px;
 	padding: 0 15px;
-	grid-area: col1;
 `;
 
 export const Column2 = styled.div`
@@ -49,11 +51,11 @@ export const Column2 = styled.div`
 `;
 
 export const TextWrapper = styled.div`
-	padding-top: 0;
+	padding-top: 3rem;
 	padding-bottom: 60px;
 `;
 export const TopLine = styled.p`
-	color: #b25fb5;
+	color: #ea6c32;
 	font-size: 16px;
 	line-height: 16px;
 	font-weight: 700;
@@ -63,6 +65,9 @@ export const TopLine = styled.p`
 
 	@media screen and (min-width: 768px) {
 		font-size: 28px;
+	}
+	@media screen and (max-width: 480px) {
+		margin-bottom: 0;
 	}
 `;
 export const Link = styled.a`
@@ -75,10 +80,11 @@ export const Heading = styled.h1`
 	letter-spacing: -.25rem;
 	font-size: 4em;
 	font-family: 'Playfair Display', serif;
-	color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+	color: #454342;
 
 	@media screen and (max-width: 480px) {
 		font-size: 32px;
+		margin-bottom: 16px;
 	}
 
 	@media screen and (min-width: 768px) {
@@ -87,7 +93,7 @@ export const Heading = styled.h1`
 `;
 
 export const TextBody = styled.p`
-	max-width: 440px;
+	max-width: 800px;
 	margin-bottom: 35px;
 	font-size: 14px;
 	line-height: 20px;
@@ -107,8 +113,6 @@ export const TextBody = styled.p`
 
 export const BtnWrap = styled.div`
 	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 `;
 
 export const ImgWrap = styled.div`

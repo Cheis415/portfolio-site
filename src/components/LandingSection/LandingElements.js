@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import bgImg from '../../images/textured-cream-bg.jpg'
 import { MdKeyboardArrowRight, MdArrowDownward } from 'react-icons/md';
 
 export const LandingConatiner = styled.div`
@@ -75,6 +74,8 @@ export const LandingH1 = styled.h1`
 export const LandingP = styled.p`
 	margin-top: 24px;
 	color: #454342;
+	margin-left: .5rem;
+	margin-right: .5rem;
 	font-size: 24px;
 	text-align: center;
 	max-width: 600px;

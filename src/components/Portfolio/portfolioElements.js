@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import bgImg from '../../images/wood-texture.jpg'
-import Project4 from '../../images/HeislerRestaurant.png';
 export const FlexContainerGreen = styled.div`
 
 background-color: #288998;
@@ -26,6 +24,8 @@ margin-right: auto;
 	max-height: 1500px;
 }
 `;
+
+
 
 export const PortfolioWrap = styled.div`
 	display: grid;
@@ -73,7 +73,6 @@ export const PortfolioCard = styled.div`
 `;
 
 export const CardWrap = styled.div`
-	background-image: url(${Project4});
 	position: relative;
 	// &:hover {
 	// 	transform: scale(1.1);
@@ -114,8 +113,11 @@ margin-bottom: 5rem;
 color: #454342;
 font-family: 'Playfair Display', serif;
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	padding-left: 2rem;
+}
 @media screen and (max-width: 480px) {
-	padding-left: 1rem;
+	padding-left: 2rem;
 	font-size: 3.5rem;
 }
 `;

@@ -12,7 +12,7 @@ export const homeObjOne = {
 
 	buttonLabel: 'My skills',
 	imgStart: false,
-	img: require('../../images/about-me.png').default,
+	// img: require('../../images/about-me.png').default,
 	alt: 'look in the mirror',
 	dark: true,
 	primary: true,

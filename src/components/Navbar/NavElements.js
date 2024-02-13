@@ -3,9 +3,7 @@ import styled from 'styled-components';
 
 export const Nav = styled.nav`
 	background: ${({ scrollNav }) =>
-		scrollNav ? 'linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0))' : 'transparent'};
-	backdrop-filter:${({ scrollNav }) =>
-	scrollNav ? 'blur(10px)' : 'none'};
+		scrollNav ? '#f9eac8' : 'transparent'};
 	height: 80px;
 	margin-top: -80px;
 	display: flex;
@@ -14,7 +12,7 @@ export const Nav = styled.nav`
 	font-size: 1rem;
 	position: sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 100;
 
 	@media screen and (max-width: 960px) {
 		transition: 0.8s all ease;
@@ -39,12 +37,16 @@ export const NavLogo = styled.div`
 	color: #454342;
 	justify-self: flex-start;
 	display: flex;
+	height: 70px !important;
 	align-items: center;
 	margin-left: 24px;
 	font-weight: bold;
 	font-size: 1.5rem;
 	cursor: pointer;
 `;
+export const LogoImage = styled.img`
+	max-height: 70px !important;
+`
 export const MobileIcon = styled.div`
 	display: none;
 
@@ -112,6 +114,7 @@ export const NavLinks = styled(LinkS)`
 	padding: 0 1rem;
 	height: 80px;
 	cursor: pointer;
+	border-bottom: 3px solid transparent;
 
 	&.active {
 		border-bottom: 3px solid #ea6c32;

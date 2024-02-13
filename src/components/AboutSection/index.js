@@ -1,6 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 import Languages from '../Languages';
+import ScrollingTestimonials from '../TestimonialsSection';
 import {
 	AboutContainer,
 	AboutRow,
@@ -15,7 +16,6 @@ import {
 	TextWrapper,
 	TopLine,
 } from './aboutElements';
-import aboutPic from '../../images/about-me.png'
 const AboutSection = ({
 	lightBg,
 	id,
@@ -32,6 +32,7 @@ const AboutSection = ({
 }) => {
 	return (
 		<>
+		
 			<AboutContainer lightB={lightBg} id={id}>
 								<TopLine>{topLine}</TopLine>
 								<Heading lighttext={lightText}>{headline}</Heading>
@@ -65,6 +66,7 @@ const AboutSection = ({
 				</AboutWrapper>
 			</AboutContainer>
 			<Languages />
+			{/* <ScrollingTestimonials/> */}
 		</>
 	);
 };

@@ -1,7 +1,5 @@
 import React, { useEffect } from 'react';
 import './portfolio.css';
-import { motion } from "framer-motion"
-
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { TopLine } from '../Languages/LanguageElements';
@@ -10,19 +8,21 @@ import {
 } from './portfolioElements';
 import { ButtonSm } from '../ButtonElements';
 
-const Portfolio = ({isActive, toggleActive, toggleStyles}) => {
-	console.log('is active:', isActive.objects)
+const Portfolio = ({isActive, expandFunc, toggleActive, toggleStyles}) => {
+	
 	useEffect(() => {
 		AOS.init({ duration: 2000, once: true });
 	}, []);
 	
 	return (
+		
 		<div className='flex-column' id="projects">
 			<TopLine>What have I done?</TopLine>
 			<PortfolioH1>My Projects</PortfolioH1>
 			<div className='flex-container'>
+				{/* <AnimatedCard isExpaned={isExpaned} expandFunc={expandFunc} animated={animated}/> */}
 			{isActive.objects.map((elements, index) => (
-				<div key={index} onClick={() => {
+				<div key={index} onMouseOver={() => {
 					toggleActive(index)
 				}} className='img-container'>
 					<img className={toggleStyles(index)} alt="img" src={elements.img}/>

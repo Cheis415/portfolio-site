@@ -1,6 +1,4 @@
 import styled from 'styled-components';
-import bgImg from '../../images/green-blob-1.png'
-import bgImg2 from '../../images/green-blob-2.png'
 
 
 
@@ -17,6 +15,7 @@ export const FlexContainer = styled.div`
 
 export const LanguagesContainer = styled.div`
 	background-color: #f9eac8;
+	display: flex;
 	min-height: 100vh;
 
 	@media screen and (min-width: 768px) {
@@ -39,7 +38,6 @@ export const LanguageWrap = styled.div`
 	display: flex;
 	flex-direction: column;
 	z-index: 1;
-	margin-top: 60px;
 	margin-right: auto;
 	margin-left: auto;
 	padding: 0 24px;
@@ -136,11 +134,15 @@ export const TopLine = styled.p`
 	font-weight: 700;
 	letter-spacing: 1.4px;
 	margin-bottom: .5rem;
-
+	margin-top: 60px;
+	
+	@media screen and (min-width: 768px) and (max-width: 1023px){
+		padding-left: 2rem;
+	}
 	@media screen and (max-width: 480px) {
 		margin-top: 2rem;
 		font-size: 1.3rem;
-		padding-left: 1rem;
+		padding-left: 2rem;
 	}
 
 `;

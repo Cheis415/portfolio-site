@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import bgImg from '../../images/wood-texture.jpg'
 
 export const AboutContainer = styled.div`
 background-color: #f9eac8;
@@ -18,7 +17,6 @@ export const AboutWrapper = styled.div`
 display: grid;
 z-index: 1;
 max-width: 1000px;
-margin-top: 80px;
 margin-right: auto;
 margin-left: auto;
 padding: 0 24px;
@@ -46,7 +44,7 @@ grid-template-areas: ${({ imgStart }) =>
 }
 
 @media screen and (max-width: 768px) {
-	padding: 20px;
+	padding-top: 20px;
 }
 @media screen and (max-width: 600px) {
 	margin-top: 1rem;
@@ -86,6 +84,10 @@ export const TopLine = styled.p`
 	font-weight: 700;
 	letter-spacing: 1.4px;
 	margin-bottom: .5rem;
+	@media screen and (min-width: 768px) {
+		padding-left: 2rem;
+		
+	}
 
 	@media screen and (max-width: 600px) {
 		padding-left: 2rem;
@@ -96,13 +98,16 @@ export const TopLine = styled.p`
 `;
 
 export const Heading = styled.h2`
-	margin-bottom: 24px;
 	font-size: 4.5rem;
 	padding-left: 4.5rem;
 	letter-spacing: -.15rem;
 	font-family: 'Playfair Display', serif;
 	font-weight: 600;
 	color: ${({ lightText }) => (lightText ? '#fffbf2' : '#454342')};
+	@media screen and (min-width: 768px) {
+		padding-left: 2rem;
+		
+	}
 
 	@media screen and (max-width: 600px) {
 		padding-left: 2rem;
