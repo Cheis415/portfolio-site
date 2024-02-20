@@ -31,7 +31,7 @@ const Sidebar = ({ isOpen, toggle }) => {
 						Testimonials
 						</SidebarLink>
 						<SidebarLink to="projects" onClick={toggle}>
-							Projects
+							Skillset
 						</SidebarLink>
 						<SidebarLink to="contact" onClick={toggle}>
 							Contact

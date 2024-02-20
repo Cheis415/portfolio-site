@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.189f1b0c.css",
+    "main.js": "/static/js/main.dd057c09.js",
+    "static/js/787.6dac1136.chunk.js": "/static/js/787.6dac1136.chunk.js",
+    "static/media/hero-img.png": "/static/media/hero-img.6554d9e559de9d698c5d.png",
+    "static/media/Jeff-H.jpg": "/static/media/Jeff-H.0746154ac79ab11e7cf8.jpg",
+    "static/media/Melissa-meyer.jpg": "/static/media/Melissa-meyer.eef334b3b18fc779c669.jpg",
+    "static/media/Robert-T.jpg": "/static/media/Robert-T.9afaa4b7de88d184ea87.jpg",
+    "static/media/Glen-C.jpg": "/static/media/Glen-C.e67146c2872e353cba42.jpg",
+    "static/media/Feargal-W.jpg": "/static/media/Feargal-W.a98b96e49dbada1eee14.jpg",
+    "static/media/2024-Chad-Heisler-Resume.pdf": "/static/media/2024-Chad-Heisler-Resume.74812bc585eb6b98de77.pdf",
+    "static/media/Garrett-T.jpg": "/static/media/Garrett-T.07e2f4a73733bf7248ce.jpg",
+    "static/media/Brooke-M.jpg": "/static/media/Brooke-M.36bb1865b71d1df7d5a8.jpg",
+    "static/media/colab.png": "/static/media/colab.fa73bfd4a93d1f3a70f5.png",
+    "static/media/adaptability.png": "/static/media/adaptability.eeda557a9e21511521de.png",
+    "static/media/UI-UX.png": "/static/media/UI-UX.041488c0b0e0d55b691c.png",
+    "static/media/bitmap.png": "/static/media/bitmap.e78ed8b4f8fd2c8cf091.png",
+    "static/media/cream-accessibility.png": "/static/media/cream-accessibility.edda44bf0e78ac34591e.png",
+    "index.html": "/index.html",
+    "main.189f1b0c.css.map": "/static/css/main.189f1b0c.css.map",
+    "main.dd057c09.js.map": "/static/js/main.dd057c09.js.map",
+    "787.6dac1136.chunk.js.map": "/static/js/787.6dac1136.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.189f1b0c.css",
+    "static/js/main.dd057c09.js"
+  ]
+}

@@ -4,16 +4,16 @@ import { Link as LinkR } from 'react-router-dom';
 
 export const Button = styled(Link)`
 	border-radius: 0;
-	background-color: ${({ primary }) => (primary ? '#288998' : '#ea6c32')};
+	background-color: #ea6c32;
 	white-space: no-wrap;
 	padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-	color: ${({ dark }) => (dark ? '#fffbf2' : '#fff')};
-	font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+	color: #fffbf2;
+	font-size: ${({ fontBig }) => (fontBig ? '20px' : '18px')};
 	outline: none;
-	border: none;
+	font-weight: bold;
 	cursor: pointer;
 	display: flex;
-	border: 1px solid #ea6c32;
+	border: 3px solid #ea6c32;
 	justify-content: center;
 	align-items: center;
 	z-index: 20;
@@ -21,22 +21,22 @@ export const Button = styled(Link)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		border: 1px solid  ${({ dark }) => (dark ? '#fffbf2' : '#288998')};
+		border: 3px solid  ${({ dark }) => (dark ? '#fffbf2' : '#288998')};
 		
 		color: ${({ dark }) => (dark ? '#fffbf2' : '#288998')};
-		background: ${({ primary }) => (primary ? 'transparent' : '#288998')};
+		background: transparent;
 	}
 `;
 
 export const ButtonSm = styled(LinkR)`
 	border-radius: 0;
-	background-color: ${({ primary }) => (primary ? '#288998' : '#288998')};
-	white-space: no-wrap;
+	background-color: transparent;
 	padding: ${({ big }) => (big ? '14px 48px' : '10px 25px')};
-	color: ${({ dark }) => (dark ? '#fffbf2' : '#fff')};
-	font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+	color: #288998;
+	font-size: ${({ fontBig }) => (fontBig ? '20px' : '18px')};
 	outline: none;
-	border: none;
+	border: 3px solid #288998;
+	font-weight: bold;
 	cursor: pointer;
 	display: flex;
 	text-decoration: none;
@@ -47,7 +47,7 @@ export const ButtonSm = styled(LinkR)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		border: 1px solid  ${({ dark }) => (dark ? '#fffbf2' : '#ea6c32')};
+		border: 3px solid  ${({ dark }) => (dark ? '#fffbf2' : '#ea6c32')};
 		
 		color: #fffbf2;
 		background: ${({ primary }) => (primary ? 'transparent' : '#ea6c32')};
@@ -56,12 +56,12 @@ export const ButtonSm = styled(LinkR)`
 
 export const ButtonLight = styled(Link)`
 	border-radius: 0;
-	background-color: #288998;
+	background-color: transparent;
 	padding: 12px 30px;
-	color: #fffbf2;
-	font-size: 20px ;
-	outline: none;
-	border: none;
+	color: #288998;
+	font-weight: bold;
+	font-size: 20px;
+	border: 3px solid #288998;
 	cursor: pointer;
 	display: flex;
 	
@@ -72,22 +72,23 @@ export const ButtonLight = styled(Link)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		color: #288998;
-		border: 1px solid #288998;
-		background: transparent;
+		color: #fffbf2;
+		border: 3px solid #288998;
+		background: #288998;
 	}
 `;
 export const ButtonLightR = styled(LinkR)`
 	border-radius: 0;
-	background-color: #288998;
+	background-color: transparent;
 	padding: 12px 30px;
-	color: #fffbf2;
-	font-size: 20px ;
+	color: #288998;
+	font-weight: bold;
+	font-size: 20px;
 	outline: none;
-	border: none;
+	border: 3px solid #288998;
 	cursor: pointer;
 	display: flex;
-	border: 1px solid #288998;
+	border: 3px solid #288998;
 	justify-content: center;
 	align-items: center;
 	z-index: 20;
@@ -95,17 +96,17 @@ export const ButtonLightR = styled(LinkR)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		border: 1px solid #288998;
-		color: #288998;
-		background: transparent;
+		border: 3px solid #288998;
+		color: #fff;
+		background: #288998;
 	}
 `;
 export const ButtonR = styled(LinkR)`
 border-radius: 0;
-
+background-color: transparent;
 color: #ea6c32;
 font-size: 13px;
-border: none;
+border: 3px solid #288998;
 cursor: pointer;
 display: flex;
 justify-content: center;
@@ -124,13 +125,14 @@ font-weight: bold;
 export const SubmitButton = styled.input`
 	margin: 0 auto;
 	border-radius: 0;
-	background: ${({ primary }) => (primary ? '#288998' : '#ea6c32')};
+	background-color: transparent;
 	white-space: no-wrap;
 	padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-	color: ${({ dark }) => (dark ? '#010606' : '#fff')};
+	color: #288998;
 	font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
 	outline: none;
-	border: none;
+	font-weight: bold;
+	border: 3px solid #288998;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -139,20 +141,21 @@ export const SubmitButton = styled.input`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		color: #000;
+		color: #fff;
 		background: ${({ primary }) => (primary ? '#fff' : '#288998')};
 	}
 `;
 export const ButtonReg = styled.button`
-	margin: 20px auto;
+	margin: 20px;
 	border-radius: 0;
-	background: ${({ primary }) => (primary ? '#288998' : '#010606')};
+	background-color: transparent;
 	white-space: no-wrap;
 	padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
-	color: ${({ dark }) => (dark ? '#010606' : '#fff')};
-	font-size: ${({ fontBig }) => (fontBig ? '20px' : '16px')};
+	color: #288998;
+	font-size: ${({ fontBig }) => (fontBig ? '20px' : '18px')};
 	outline: none;
-	border: none;
+	font-weight: bold;
+	border: 3px solid #288998;
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
@@ -160,7 +163,8 @@ export const ButtonReg = styled.button`
 	transition: all 0.2s ease-in-out;
 
 	&:hover {
+		color: #fff;
 		transition: all 0.2s ease-in-out;
-		background: ${({ primary }) => (primary ? '#fff' : '#288998')};
+		background: #288998;
 	}
 `;

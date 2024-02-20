@@ -9,9 +9,8 @@ import Project2 from '../../images/UI-UX.png';
 import Project3 from '../../images/adaptability.png';
 import Project4 from '../../images/cream-accessibility.png';
 import Navbar from '../Navbar'
-
-import Portfolio from '../Portfolio';
 import Sidebar from '../Sidebar'
+import Skillset from '../Skillset';
 
 
 const Home = () => {
@@ -55,7 +54,7 @@ const Home = () => {
       <Navbar toggle={toggle}/>
       <LandingSection />
       <AboutSection {...homeObjOne} />
-      <Portfolio isExpaned={isExpaned} expandFunc={expandFunc}  isActive={isActive} toggleActive={toggleActive} toggleStyles={toggleStyles} />
+      <Skillset isExpaned={isExpaned} expandFunc={expandFunc}  isActive={isActive} toggleActive={toggleActive} toggleStyles={toggleStyles} />
       <Contact />
     </>
   )

@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ButtonLightR } from '../ButtonElements';
+import { ButtonReg } from '../ButtonElements';
 import {
 	DetailsContainer,
 	DetailsWrapper,
@@ -13,9 +13,6 @@ import {
 	TextBody,
 	Link,
 	BtnWrap,
-	Column2,
-	ImgWrap,
-	Img,
 } from './ProjectDetailsElements';
 
 const ProjectDetails = ({
@@ -28,8 +25,6 @@ const ProjectDetails = ({
 	darktext,
 	description,
 	buttonLabel,
-	img,
-	alt,
 	link,
 }) => {
 	var navigate = useNavigate();
@@ -49,14 +44,14 @@ const ProjectDetails = ({
 								<TextBody darktext={darktext}>{description}</TextBody>
 
 								<BtnWrap>
-									{/* <Link target="_blank" rel="noreferrer" href={link}>
-										<ButtonLightR primary="true" dark="false">
-											Link
-										</ButtonLightR>
-									</Link> */}
-									<ButtonLightR onClick={GoBack} primary="true" dark="false">
+									<Link target="_blank" rel="noreferrer" href={link}>
+										<ButtonReg primary="true" dark="false">
+											Link <span className='sr-only'>opens tab in new window</span>
+										</ButtonReg>
+									</Link>
+									<ButtonReg onClick={GoBack} primary="true" dark="false">
 										{buttonLabel}
-									</ButtonLightR>
+									</ButtonReg>
 								</BtnWrap>
 							</TextWrapper>
 						</Column1>

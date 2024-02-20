@@ -70,6 +70,19 @@ const Navbar = ({ toggle }) => {
 						</NavItem>
 						<NavItem>
 							<NavLinks
+								aria-label="scrolls to skillset section of the website"
+								to="skillset"
+								smooth={true}
+								duration={500}
+								spy={true}
+								exact="true"
+								offset={-80}
+							>
+								Skillset
+							</NavLinks>
+						</NavItem>
+						<NavItem>
+							<NavLinks
 								aria-label="scrolls to testimonials section of the website"
 								to="testimonials"
 								smooth={true}
@@ -81,19 +94,7 @@ const Navbar = ({ toggle }) => {
 								Testimonials
 							</NavLinks>
 						</NavItem>
-						<NavItem>
-							<NavLinks
-								aria-label="scrolls to project section of the website"
-								to="projects"
-								smooth={true}
-								duration={500}
-								spy={true}
-								exact="true"
-								offset={-80}
-							>
-								Projects
-							</NavLinks>
-						</NavItem>
+						
 						<NavItem>
 							<NavLinks
 								aria-label="scrolls to contact section of the website"

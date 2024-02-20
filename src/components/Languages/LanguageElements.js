@@ -127,7 +127,7 @@ export const LanguageContainer = styled.div`
 `;
 
 export const TopLine = styled.p`
-	color: #ea6c32;
+	color: #288998;
 	font-size: 1.7rem;
 	padding-left: 4rem;
 	line-height: 16px;

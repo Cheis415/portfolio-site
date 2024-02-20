@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import Languages from '../Languages';
-import ScrollingTestimonials from '../TestimonialsSection';
+
 import {
 	AboutContainer,
 	AboutRow,
@@ -65,8 +64,7 @@ const AboutSection = ({
 					</AboutRow>
 				</AboutWrapper>
 			</AboutContainer>
-			<Languages />
-			{/* <ScrollingTestimonials/> */}
+			
 		</>
 	);
 };

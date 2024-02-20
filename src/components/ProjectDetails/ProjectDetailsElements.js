@@ -60,7 +60,6 @@ export const TopLine = styled.p`
 	line-height: 16px;
 	font-weight: 700;
 	letter-spacing: 1.4px;
-	text-transform: uppercase;
 	margin-bottom: 16px;
 
 	@media screen and (min-width: 768px) {
@@ -72,6 +71,7 @@ export const TopLine = styled.p`
 `;
 export const Link = styled.a`
 	text-decoration: none;
+	margin-right: 1rem;
 `;
 
 export const Heading = styled.h1`
@@ -103,8 +103,8 @@ export const TextBody = styled.p`
 	}
 
 	@media screen and (min-width: 768px) {
-		font-size: 24px;
-		line-height: 24px;
+		font-size: 22px;
+		line-height: 28px;
 		margin: 35px 35px 35px 0;
 		margin-bottom: 35px;
 		margin-right: 35px;

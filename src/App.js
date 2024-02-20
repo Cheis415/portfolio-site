@@ -8,7 +8,7 @@ import {
 	projectObj3,
 	projectObj4,
 } from './components/ProjectDetails/Data';
-import Portfolio from './components/Portfolio';
+import Skillset from './components/Skillset';
 import ScrollToTop from './ScrollToTop';
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
 						
 					<Route path="/details4" element={<ProjectDetails {...projectObj4} />} exact />
 						
-					<Route path="/projects" element={<Portfolio />} exact />
+					<Route path="/skillset" element={<Skillset />} exact />
 						
 					
 				</Routes>

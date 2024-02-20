@@ -10,3 +10,9 @@
 html {
   background-color: #454342;
 }
+a {
+  letter-spacing: 1px;
+}
+p {
+  line-height: 28px;
+}

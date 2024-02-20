@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
-background-color: #f9eac8;
+
 min-height: 100vh;
 color: #fffbf2;
 	background-color: #288998;
@@ -76,7 +76,7 @@ export const TextWrapper = styled.div`
 	padding-bottom: 60px;
 `;
 export const TopLine = styled.p`
-	color: #ea6c32;
+	color: #f9eac8;
 	font-size: 1.7rem;
 	padding-top: 4.5rem;
 	padding-left: 4.5rem;
@@ -118,8 +118,8 @@ export const Heading = styled.h2`
 
 export const TextBody = styled.p`
 	margin-bottom: 35px;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 18px;
+    line-height: 24px;
 	color: ${({ darkText }) => (darkText ? '#010606' : '#fff')} 
 	@media screen and (max-width: 480px) {
 		font-size: 12px;
