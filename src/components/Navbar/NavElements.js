@@ -22,6 +22,7 @@ export const Nav = styled.nav`
 export const NavContainer = styled.div`
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 	height: 80px;
 	z-index: 1;
 	width: 100%;

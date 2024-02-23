@@ -17,28 +17,28 @@ const testimonials = [
         id: 1,
         img: melissa,
         name: "Melissa M.",
-        title: "Ecommerce & Marketing Professional Freelance",
+        title: " Former ecommerce & marketing @VWE",
         info: "Chad is a very positive person to have on the team! He is very responsive and always a pleasure to work with. He is great with quick fixes, and makes sure he understands all the needs for a project, and completes all essential tasks. He picked up systems and processes very fast and fit into the team seamlessly. Anyone would benefit from having Chad on their team. He is knowledgeable, eager to learn and a great worker!",
       },
       {
         id: 2,
         img: Feargal,
         name: "Feargal W.",
-        title: "Software Developer",
+        title: "Software Developer @Wag",
         info: "I am so grateful to have observed Chad's rocket trajectory from novice programmer to React expert in the last year. He has taken the bull by the horns and not rested on his laurels since the pandemic began. I was his teacher at Code Tenderloin and he was easily the best in a class of six. He asked 90% of the questions and gave 90% of the suggestions on how to solve problems. He was also the person who was most enthusiastic about coding live in front of the class and he solved all of the toy problems I could throw at him in under twenty minutes.",
       },
       {
         id: 3,
         img: Glen,
         name: "Glen C.",
-        title: "Software Engineer",
+        title: "Software Engineer @Aws",
         info: "While Chad was a student, I worked with him on several of his projects as he developed his portfolio. I was very impressed with Chad's approach to collaboration, problem solving, and code quality. Chad demonstrated high proficiency in both Python (including Flask) and Javascript (vanilla, jQuery, and React). I have nothing but good things to say about Chad's professionalism, dedication, and abilities as a software engineer.",
       },
       {
         id: 4,
         img: Brooke,
         name: "Brooke M.",
-        title: "Ecommerce and Marketing Director",
+        title: " Former ecommerce and marketing director @VWE",
         info: `While working with Chad at Vintage Wine Estates he was a very dedicated member of the web development team, eager to bring new functionality to our sites and very receptive to feedback. He was incredibly adaptable and could simultaneously work on projects with different project managers, communicating timelines and needs in a professional manner.
   Chad has an incredible sense of humor and always brings positivity to his collaborations. He was a wonderful asset to our team at VWE and would be a great addition to yours.`,
       },
@@ -47,7 +47,7 @@ const testimonials = [
         id: 5,
         img: Robert,
         name: "Robert T.",
-        title: "Dir. of Web Development",
+        title: "Dir. of Web Development @VWE",
         info: `As a front-end web developer, Chad Heisler showed a strong understanding of HTML, CSS, and JavaScript, which allowed him to build, maintain and enhance numerous e-commerce websites.
   One of Chad's greatest strengths is his ability to collaborate effectively with all team members. He communicates clearly, listens actively, and contributes valuable insights to project discussions. He is also adaptable and resourceful, always eager to learn new technologies and techniques to improve his skills and strengthen his contributions to the team.
         
@@ -57,7 +57,7 @@ const testimonials = [
         id: 6,
         img: Jeff,
         name: "Jeff H.",
-        title: "Former Carpenter",
+        title: "Former Carpenter @Heisler Construction",
         info: "I had the pleasure of working with Chad at Heisler Construction and Demolition. Chad's adaptability, attention to detail, and clear communication made him an enjoyable person to work under. I look back on my time working with Chad fondly, and I highly recommend working with someone as enthusiastic about the work as he is.",
       },
       
@@ -65,7 +65,7 @@ const testimonials = [
         id: 7,
         img: Winston,
         name: "Winston Y.",
-        title: "DevOps Engineer",
+        title: "Former instructor @Code Tenderloin",
         info: `I'm happy to endorse Chad for his impactful contributions as a Teaching Assistant at Code Tenderloin. Chad's unwavering
         commitment to empowering underprivileged students to learn to code is truly commendable. Through his guidance and support, Chad not
         only facilitated learning but also instilled confidence in his students. Chad's efforts undoubtedly made a profound difference
@@ -75,7 +75,7 @@ const testimonials = [
         id: 8,
         img: Garrett,
         name: "Garrett T.",
-        title: "Senior Web Developer",
+        title: "Senior Web Developer @VWE",
         info: "I had the pleasure of working with Chad for 2 years at Vintage Wine Estates. His outstanding work ethic, attention to detail, and ability to adapt to challenging situations were truly commendable. Chad consistently brought creativity and valuable insights to our projects, making them an invaluable member of our team. I highly recommend them for any endeavor they pursue.",
       },
       
